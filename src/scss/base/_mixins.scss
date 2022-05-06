@@ -1,0 +1,21 @@
+
+/* Media Queries*/
+
+@mixin phone{
+    @media(min-whidth: 480px){
+        @content;
+    }
+}
+
+@mixin tablet{
+    @media(min-whidth:768px){
+        @content;
+    }
+}
+
+@mixin desktop{
+    @media(min-whidth:1024px){
+        @content;
+    }
+}
+

@@ -1,0 +1,41 @@
+
+
+.content-footer{
+    background-color: $gris;
+    padding: 1.5rem ;
+}
+
+.barra-footer{
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    .logo-footer{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-footer img, .title-footer{
+        @media(max-width: 768px){
+            
+        }
+    }
+    
+}
+
+.nav-social__footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: $gris;
+}
+
+
+.media_social a img{
+    @media(max-width: 768px){
+        width: 25px;
+        height: 25px;
+    }
+}
+
+.info-footer{
+    font-size: 1.5rem;
+}
+
+

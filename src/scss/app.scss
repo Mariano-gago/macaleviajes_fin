@@ -1,0 +1,15 @@
+@import 'base/globales';
+@import 'base/normalize';
+@import 'base/variables';
+@import 'base/mixins';
+
+
+/*UI*/
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/cards';
+
+/*CARROUSELL*/
+@import 'layout/carrousell';
+
