@@ -1,0 +1,26 @@
+.previaje{
+    background-image: url('../../../build/img/previaje.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 5rem;
+    height: 25rem;
+    
+}
+
+.promos{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+
+    picture{
+        max-width: 300px;
+        max-height: 330px;
+        overflow: inherit;
+        object-fit:contain;
+    }
+}
+
+

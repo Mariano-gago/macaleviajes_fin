@@ -18,6 +18,13 @@
 .logo{
     display: flex;
     align-items: center;
+
+    img{
+        @media (max-width:768px){
+            width: 50px;
+            height:50px;
+        }
+    }
 }
 
 
@@ -32,15 +39,28 @@
         margin: 1rem;
         color: $negro;
         font-weight: $regular;
+        @media (max-width:768px){
+            margin-top: 3rem;
+            font-size: 1.5rem;
+        }
     }
 
 .media_social{
     display: flex;
+    
+    img{
+        max-width: 30px;
+        max-height: 30px;
+    }
 }
 
 .title{
     font-family: $font_Title;
-    font-size: 3.5rem;
+    font-size: 3rem;
+    @media (max-width: 768px){
+        font-size: 2rem;
+    }
+
 }
 
 .barra{
