@@ -1,5 +1,4 @@
 
-
 .content-footer{
     background-color: $gris;
     padding: 1.5rem ;
@@ -11,11 +10,14 @@
     .logo-footer{
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     .logo-footer img, .title-footer{
         @media(max-width: 768px){
-            
         }
+    }
+    .logo-footer h4{
+        color: $negro;
     }
     
 }
@@ -24,7 +26,13 @@
     display: flex;
     justify-content: space-around;
     background-color: $gris;
+    @media(max-width: 320px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
+
 
 
 .media_social a img{
@@ -36,6 +44,7 @@
 
 .info-footer{
     font-size: 1.5rem;
+    text-align: center;
 }
 
 

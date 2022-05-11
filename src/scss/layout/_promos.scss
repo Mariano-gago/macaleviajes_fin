@@ -1,0 +1,33 @@
+.previaje{
+    background-image: url('../../../build/img/previaje.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 10rem;
+    height: 25rem;
+
+    @media (max-width:768px){
+        display: none;
+    }
+}
+
+.promos{
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+    @media (max-width:320px){
+        display: flex;
+        flex-direction: column;
+        }
+
+    .promos__aero img{
+        border: 1px solid lightslategray;
+        margin-top: 5rem;
+        max-width:100%;
+    }
+}
+
+
