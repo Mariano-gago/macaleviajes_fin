@@ -1,7 +1,8 @@
 
 .content-footer{
-    background-color: $gris;
+    background-color:$negro;
     padding: 1.5rem ;
+    
 }
 
 .barra-footer{
@@ -14,10 +15,12 @@
     }
     .logo-footer img, .title-footer{
         @media(max-width: 768px){
+            width: 50px;
+            height:50px;
         }
     }
     .logo-footer h4{
-        color: $negro;
+        color:$negro;
     }
     
 }
@@ -25,7 +28,8 @@
 .nav-social__footer{
     display: flex;
     justify-content: space-around;
-    background-color: $gris;
+    background-color: $negro;
+    
     @media(max-width: 320px){
         display: flex;
         flex-direction: column;
@@ -33,6 +37,9 @@
     }
 }
 
+.nav__footer a{
+    color: $blanco;
+}
 
 
 .media_social a img{
@@ -45,6 +52,7 @@
 .info-footer{
     font-size: 1.5rem;
     text-align: center;
+    color: $blanco;
 }
 
 
