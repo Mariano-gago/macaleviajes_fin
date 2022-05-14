@@ -81,8 +81,10 @@
 }
 
 .nav{
+    flex-wrap: nowrap;
     @media(min-width: 768px){
         display: flex;
+        
     }
 
     a{
@@ -97,17 +99,18 @@
 .titulo{
     margin-top: 2rem;
     text-align: center;
-    font-weight: $regular;
 }
 
 .titulo-lineas{
-    font-size: 5rem;
+    font-size: 4rem;
     display: inline-block;
     position: relative;
     color: $grisOscuro;
+    font-weight: $regular;
 }
+
 .titulo-lineas::after, .titulo-lineas::before{
-    content:"";
+    content:'';
     position: absolute;
     width:30rem;
     height: 3px;
@@ -115,10 +118,19 @@
     top: 0.6em;
 }
 
+
+.titulo-lineas::after, .titulo-lineas::before{
+    @media (max-width: 768px){
+    display: none;
+    }
+}
+
+
+
 .titulo-lineas::after{
     right: -31rem;
 }
 .titulo-lineas::before{
     left: -31rem;
-}
+}  
 
